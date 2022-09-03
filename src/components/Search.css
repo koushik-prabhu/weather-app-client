@@ -1,0 +1,36 @@
+.main-search{
+   background: transparent; 
+   border: 1px solid rgb(198, 196, 196);
+   padding: 1px 5px 0px 15px;
+   border-radius: 20px;
+   height:38px;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+.main-input{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    width:80%;
+    color:white;
+}
+::placeholder{
+    color:rgb(222, 220, 216);
+}
+.search-btn{
+    color:white;
+}
+.search-btn:hover{
+    color:rgb(147, 143, 143);
+}
+.error-msg{
+    color:red;
+    display: block;
+    text-align: center;
+    height: 10px;
+    padding-top: 7px;
+    letter-spacing: 1px;
+}
+
